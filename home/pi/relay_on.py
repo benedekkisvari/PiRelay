@@ -26,5 +26,5 @@ GPIO.setup(pinNum,GPIO.OUT)
 #turing on the current relay
 GPIO.output(pinNum,0)
 #returning the current state of the relay
-print not GPIO.input(pinNum)
+print(not GPIO.input(pinNum))
 
